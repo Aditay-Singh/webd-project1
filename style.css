@@ -1,0 +1,280 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+body{
+    background-color: black;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.main{
+    background-image: url(asset/bg.jpg);
+    display: flex;
+    justify-content: center  center;
+    background-repeat: no-repeat;
+    background-size: max(1200px,100vw);
+    height: 644px;
+}
+.main .box{
+    background-color:black;
+   
+   height: 644px;
+   width:100vw;
+    justify-content: center center;
+    opacity: 0.69;
+  
+}
+.font h2 {
+
+font-size: 900;
+font-weight: bolder;
+font-size: 56px;
+color: rgb(255,255,255);
+display: flex;
+justify-content: center;
+position: relative;
+z-index: 10;
+margin-top: -350px;
+line-height: 70px;
+}
+.fontsec{
+    color: rgb(255,255,255);
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 20;
+    font-weight:500;
+    font-size: 20px;
+    font-style: normal;
+    margin-left: 127px;
+    padding-bottom: 20px;
+    flex-direction: column;
+    gap: 23px;
+    padding: 0px 40px;
+}
+.fontsec >:nth-child(1){
+    color:rgb(255, 255,255);
+    font-weight: bold;
+    text-align: center;
+    
+}
+.fontsec >:nth-child(2)
+{
+    color:rgb(255, 255,255);
+    
+    text-align: center;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    margin: 17px -50px;
+    
+}
+nav span button{
+   
+    padding: 7px 30px;
+    border-radius: 5px;
+    position: relative;
+    z-index: 10;
+    cursor: pointer;
+   
+
+}
+nav span button:nth-child(2){
+    color:white;
+    background: red;
+    cursor: pointer;
+
+}
+nav span button{
+    background-color: black;
+    color: white;
+    border: 2 px solid white;
+}
+.hero{
+   background: #000;
+    position: relative;
+    z-index: 10;
+    opacity: 0.69;
+    margin: 10px;
+    display:flex; 
+    gap: 1.5vw; 
+    justify-content: center;
+
+    
+    
+}
+.hero input{
+    background-color: black;
+    opacity: 10;
+    border: 2px solid white;
+    padding: 15px 50px;
+    text-align: center;
+    border-radius: 3px;
+    
+}
+.hero button{
+    background-color: red;
+    padding: 10px 50px;
+    text-align: center;
+    color: white;
+    font-family: bolder;
+   border: 1px black;
+    border-radius: 3px;
+}
+
+.seperation{
+    height: 7px;
+    background: rgb(32, 32, 32);
+    position: relative;
+    z-index: 10;
+    margin:74px -7px;
+   animation: curve 2s forwards;
+    
+}
+@keyframes curve{
+    0%{
+        border-radius: 0;
+    }
+    100%{
+        border-radius: 100px;
+    }
+}
+
+.trend{
+    color: white;
+    font-weight: bold;
+    margin: 0px 40px;
+}
+.sec{
+    background-color: black;
+    max-height: 644px;
+    max-width: 100vw;
+    position: relative;
+}
+  .button {
+  background-color:rgb(45, 45, 45);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.one{
+    
+    opacity: 0.69;
+    position: relative;
+    z-index: 10;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    margin: 15px 47px;
+    padding: 10px 30px;
+   border-bottom: #000;
+   border: 0.1px solid white;
+    border-radius: 3.5px;
+}
+.two{
+    opacity: 0.69;
+    position: relative;
+    z-index: 10;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    margin: 10px 30px;
+    padding: 10px 30px;
+   border-bottom: #000;
+   border: 0.5px solid white;
+   border-radius: 3.5px;
+
+}
+.img{
+    display: flex;
+    gap: 25px;
+    margin: 10px 10px;
+    justify-content: baseline;
+    margin: 2vh 7vw;
+transition-duration: 2s;
+transition-delay: 10ms; 
+:hover{
+    transform: scale(1.1   );
+};
+
+}
+
+.img img:nth-child(1){
+    
+    border-radius: 10px;
+}
+
+.img img:nth-child(2){
+    border-radius: 10px;
+}
+.img img:nth-child(3){
+    border-radius: 10px;
+}
+.Question{
+    margin: 10px 10px;
+background-color: rgb(39, 38, 38);
+position: relative;
+}
+.Question div{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    border: 1px solid white;
+   padding: 30px ;
+   padding-right: 0vw -200%vw;
+   display: flex;
+   position: relative;
+   z-index:10px;
+   transition-duration: 2s;
+   transition-delay: 10ms;
+   
+    
+    
+   
+}
+.Question:hover{
+    background-color: rgb(17, 17, 17);
+   
+}
+.video{
+    margin: center;
+    padding:  0vw 40vw;
+    position: relative;
+
+}
+.video video{
+    position: relative;
+    
+    height: 253px;
+    bottom: 402px;
+    object-fit: contain;
+    padding-left: 89px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.question2{
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+    margin: 20px 40px;
+}
+.footer-item{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+.footer-item a{
+color: white;
+}
